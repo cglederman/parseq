@@ -4,8 +4,9 @@ ext {
 
 dependencies {
   compile project(':parseq-batching')
-  compile group: 'org.hdrhistogram', name: 'HdrHistogram', version:'2.1.8'
-  compile group: 'org.slf4j', name: 'slf4j-simple', version:'1.7.12'
+  compile group: 'org.hdrhistogram', name: 'HdrHistogram', version:'2.1.12'
+  compile group: 'org.slf4j', name: 'slf4j-simple', version:'1.7.36'
+  compile group: 'javax.xml.bind', name: 'jaxb-api', version:'2.2.4'
 }
 
 task fatJar(type: Jar) {

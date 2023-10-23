@@ -2,6 +2,7 @@
 .classpath
 .project
 .idea
+.vscode
 *.iml
 *.ipr
 *.iws
@@ -14,4 +15,5 @@ target
 .gradle
 /.gradle
 .settings
-subprojects/parseq-lambda-names/bin/
+package-lock.json
+subprojects/*/bin/

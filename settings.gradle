@@ -13,8 +13,8 @@ def modules = [ /* the name of the modules to use */
     'parseq-legacy-examples',
     'parseq-restli-client',
     'parseq-test-api', // unit/integration test utils
-    'parseq-tracevis', // trace visualization tools
-    'parseq-tracevis-server',
+    // 'parseq-tracevis', // trace visualization tools
+    // 'parseq-tracevis-server',
     'parseq-zk-client'
 ]
 

@@ -7,6 +7,13 @@ ext {
     description = '''Meta-project containing the entire dependency tree of parseq; should not be consumed directly.'''
 }
 
+repositories {
+  maven {
+     url "https://linkedin.jfrog.io/artifactory/open-source/"
+  }
+  mavenCentral()
+}
+
 dependencies {
     rootProject.subprojects.forEach {
         if (it != project && !it.name.endsWith('examples')) {

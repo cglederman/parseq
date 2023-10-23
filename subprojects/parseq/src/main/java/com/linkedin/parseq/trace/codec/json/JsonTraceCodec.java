@@ -18,11 +18,19 @@ package com.linkedin.parseq.trace.codec.json;
 
 import com.linkedin.parseq.trace.Trace;
 import com.linkedin.parseq.trace.codec.TraceCodec;
-import org.codehaus.jackson.JsonEncoding;
-import org.codehaus.jackson.JsonGenerator;
-import org.codehaus.jackson.JsonNode;
-import org.codehaus.jackson.JsonParser;
-import org.codehaus.jackson.map.ObjectMapper;
+
+
+import com.fasterxml.jackson.core.JsonEncoding;
+import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+//import org.codehaus.jackson.JsonEncoding;
+//import org.codehaus.jackson.JsonGenerator;
+//import org.codehaus.jackson.JsonNode;
+//import org.codehaus.jackson.JsonParser;
+//import org.codehaus.jackson.map.ObjectMapper;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
